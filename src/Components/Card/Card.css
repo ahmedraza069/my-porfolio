@@ -1,0 +1,45 @@
+
+#banner_middle_part .flex-box{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border-radius: 10px;
+}
+
+#banner_middle_part .flex-box button{
+    
+    background-color: #fff;
+    border: 1px solid #D8532B;
+    border-radius: 5px;
+}
+
+#banner_middle_part:hover .flex-box{
+    opacity: 1;
+    scale: 1;
+    transition: 0.5s;
+}
+#banner_middle_part .flex-box:hover{
+    opacity: 1;
+    scale: 0.9;
+    background: #D8532B;
+}
+
+#banner_middle_part .flex-box:hover h4 {
+    color: #fff;
+}
+#banner_middle_part .flex-box:hover p{
+    color: #fff;
+}
+
+/* #banner_middle_part .flex-box .number{
+    width: 80px;
+    height: 80px;
+    background-color: #D8532B;
+    text-align: end;
+    border-bottom-left-radius: 100%;
+} */
+/* #banner_middle_part .flex-box .number h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    padding-right: 12px;
+    padding-top: 12px;
+} */
